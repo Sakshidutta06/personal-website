@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+    <!--Nav bar-->
+    <section>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Offcanvas navbar large">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#hero">Home</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Select</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#skills">Skills and Qualifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactme">Contact me</a>
+                        </li>
+                       
+                      </ul> 
+                    </div>
+                  </div>
+                </div>
+              </nav>
+    </section>
+
+    <!--home section-->
+    <section id="hero" class=" hero">
+        <h1>
+            I am Sakshi Dutta
+        </h1>
+        <h2>
+            WELCOME TO MY WEBSITE
+        </h2>
+    </section>
+    
+    <!--about section-->
+    <section id="about" class=" about">
+        <div class="container aboutme">
+            <h1>ABOUT ME</h1>
+            <img class="sakshiimg" src="./sakshi.png"/>
+            <p>Hello, my name is Sakshi dutta. I am an aspiring Full stack Web Developer, i love learning new skills to benefit myself for what lies ahead. </p>
+        </div>
+
+
+
+
+    </section>
+    
+    <!--skills-->
+    <section id="skills" class=" skills">
+        <div class="skillsdiv">
+            <div><h1> SKILLS AND QUALIFICATION</h1></div>
+            <div  class="skillsflex" >
+                <div class="skill">
+                    <ul >
+                        <li><h2><img src="./skills.png" height="50px"/> Skills</h2></li>
+                        <hr>
+                        <li>-HTML</li>
+                        <li>-CSS</li>
+                        <li>-Javascript</li>
+                        <li>-Good verbal and written skills</li>
+                        <li>-Python</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><h2><img src="./books.png" height="50px"/> Qualification</h2></li>
+                        <hr>
+                        <li>-SSC (2017-18)</li>
+                        <li>-HSC in computer science (2019-20)</li>
+                        <li>-BE in IT (2020-ongoing)</li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!--projects-->
+    <section id="projects" class=" projects" >
+        <div class="projectdiv">
+            <div><h1> MY PROJECTS</h1></div>
+            <div class="projectflex">
+                <div>
+                    <a href="./tindog project/index.html"><img src="./tindog.png" height="250px"/></a>
+                    <h3>Course project to build a website using bootstrap </h3>
+                </div>
+                <div>
+                    <a href="./mondarian project/index.html"><img src="./mondarian.png" height="250px"/></a>
+                    <h3>Project to recreate an artpiece using css grid</h3>
+                </div>
+                <div>
+                    <a href="./move it project/index.html"><img src="./moveit.png" height="250px"/></a>
+                    <h3>Project to build a website using html css bootstrap</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--contact me-->
+    <section id="contactme" class=" contactme">
+        <h1>CONTACT ME</h1>
+        <ul>
+        <li>@sakshidutta000@gmail.com </li>
+        </ul>
+        <h2>GET CONNECTED</h2>
+        <div class="contactmeflex">
+            <a href="https://github.com/Sakshidutta06"><img src="./github.png" height="80px"/></a>
+            <a href="https://www.linkedin.com/in/sakshi-dutta-undefined-953547280/"><img src="./linkedin.png" height="80px"/></a>
+        </div>
+    </section>
+  
+    
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
